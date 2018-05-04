@@ -1,6 +1,6 @@
 #!/bin/bash
 
-// @author   https://www.reddit.com/user/LookAtMyKeyboard
+# @author   https://www.reddit.com/user/LookAtMyKeyboard
 
 OUTPUT=$(apcaccess)
 
