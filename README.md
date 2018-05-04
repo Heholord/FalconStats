@@ -1,8 +1,12 @@
 # FalconStats
 
-This project was initiated based on a thread on Reddit [/r/unixporn](https://www.reddit.com/r/unixporn).
+Custom motd scripts can be loaded into the ```/etc/motd``` file.
 
-Thread Post: [My MOTD scripts for my home server](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/)
+[Original reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/)
+on [/r/unixporn](https://www.reddit.com/r/unixporn) by
+[/u/LookAtMyKeyboard](https://www.reddit.com/user/LookAtMyKeyboard)
+
+![Notification](https://i.imgur.com/XMSekjG.png)
 
 ## Requires
 
