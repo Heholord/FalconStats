@@ -1,6 +1,4 @@
-
 #!/usr/bin/env node
-
 
 # @author   https://www.reddit.com/user/LookAtMyKeyboard
 # @rewrite  https://www.reddit.com/user/cloudrac3r
