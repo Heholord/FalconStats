@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-# @author   https://www.reddit.com/user/LookAtMyKeyboard
-# @rewrite  https://www.reddit.com/user/cloudrac3r
+// @author   https://www.reddit.com/user/LookAtMyKeyboard
+// @rewrite  https://www.reddit.com/user/cloudrac3r
 
 var util = require("util");
 var exec = require("child_process").exec;

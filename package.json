@@ -1,0 +1,22 @@
+{
+  "name": "falconstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hdd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heholord/FalconStats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heholord/FalconStats/issues"
+  },
+  "homepage": "https://github.com/Heholord/FalconStats#readme",
+  "dependencies": {
+    "ansi-styles": "^3.2.1"
+  }
+}

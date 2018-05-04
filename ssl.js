@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-# @author   https://www.reddit.com/user/LookAtMyKeyboard
+// @author   https://www.reddit.com/user/LookAtMyKeyboard
 
 var style = require("ansi-styles");
 var sslCertificate = require('get-ssl-certificate');
