@@ -1,6 +1,6 @@
 #!/bin/bash
 
-// @author   https://www.reddit.com/user/LookAtMyKeyboard
+# @author   https://www.reddit.com/user/LookAtMyKeyboard
 
 # Declare array of services and pretty human readable names
 declare -a services=(
