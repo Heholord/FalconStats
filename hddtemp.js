@@ -3,6 +3,9 @@
 // @author   https://www.reddit.com/user/LookAtMyKeyboard
 // @rewrite  https://www.reddit.com/user/cloudrac3r
 
+// @dependency https://savannah.nongnu.org/projects/hddtemp/
+// @hddtemp admins: Emmanuel Varagnat and Aurelien Jarno
+
 var util = require("util");
 var exec = require("child_process").exec;
 var child;
