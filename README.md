@@ -21,7 +21,7 @@ or if you like a global installation
 npm install -g
 ```
 
-Custom motd scripts can be loaded into the `/etc/motd` file.
+Custom motd scripts can be placed into the `/etc/update-motd` folder.
 
 ## Run scripts
 
