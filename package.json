@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Heholord/FalconStats#readme",
   "dependencies": {
-    "ansi-styles": "^3.2.1"
+    "ansi-styles": "^3.2.1",
+    "get-ssl-certificate": "^2.1.2"
   }
 }
