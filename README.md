@@ -25,8 +25,20 @@ Custom motd scripts can be placed into the `/etc/update-motd` folder.
 
 ## Run scripts
 
-```sh
+For nodejs files (*.js):
+
+```bash
 node [script].js
+```
+
+For shell scripts files (*.sh):
+
+```bash
+bash [script].sh
+# or
+sh [script].sh
+#or
+./[script].sh
 ```
 
 ## Future wishes and pull request offers
