@@ -1,6 +1,6 @@
 # FalconStats
 
-[Original reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/) on [/r/unixporn](https://www.reddit.com/r/unixporn) by [/u/LookAtMyKeyboard](https://www.reddit.com/user/LookAtMyKeyboard)
+[Original reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/) on [/r/unixporn](https://www.reddit.com/r/unixporn) by [@hermannbjorgvin](https://github.com/hermannbjorgvin/)
 
 ![Notification](https://i.imgur.com/XMSekjG.png)
 
@@ -21,7 +21,7 @@ or if you like a global installation
 npm install -g
 ```
 
-Custom motd scripts can be loaded into the `/etc/motd` file.
+Custom motd scripts can be placed into the `/etc/update-motd` folder.
 
 ## Run scripts
 
