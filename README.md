@@ -57,3 +57,4 @@ If you send me a pull request I offer you to name your github repo next to the f
 
 - First pull request by [TechnologyClassroom](https://github.com/TechnologyClassroom)
 - thank you [stevesbrain](https://github.com/stevesbrain) for checking our dependency list. This can be a pain in the a** sometimes
+- Thank you [MrPowerMac](https://github.com/MrPowerMac) for suggesting this project a licence. Now we are truly open source.
