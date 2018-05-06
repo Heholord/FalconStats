@@ -18,6 +18,10 @@
   "homepage": "https://github.com/Heholord/FalconStats#readme",
   "dependencies": {
     "ansi-styles": "^3.2.1",
-    "get-ssl-certificate": "^2.1.2"
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "get-ssl-certificate": "^2.1.2",
+    "inquirer": "^5.2.0"
   }
 }
