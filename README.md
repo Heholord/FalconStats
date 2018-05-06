@@ -23,21 +23,32 @@ npm install -g
 
 Custom motd scripts can be placed into the `/etc/update-motd` folder.
 
+## Auto-configuration
+
+For interactive configuration run
+
+```bash
+node init.js
+```
+
+You can always few your config in [scripts/config.json](config.json)
+
 ## Run scripts
 
 For nodejs files (*.js):
 
 ```bash
-node [script].js
+node scripts/[script].js
 ```
 
 For shell scripts files (*.sh):
 
 ```bash
-bash [script].sh
+bash scripts/[script].sh
 # or
-sh [script].sh
+sh scripts/[script].sh
 # or
+cd scripts
 ./[script].sh
 ```
 
