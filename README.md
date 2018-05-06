@@ -25,6 +25,8 @@ Custom motd scripts can be placed into the `/etc/update-motd` folder.
 
 ## Auto-configuration
 
+![Interactive Configuration](https://i.imgur.com/3yulvHB.png)
+
 For interactive configuration run
 
 ```bash
