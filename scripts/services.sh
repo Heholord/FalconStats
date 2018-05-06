@@ -19,7 +19,7 @@ declare -a serviceName=(
 "SSH Guard"
 "RSync"
 "Firewall"
-"APC UPS Daemon"
+"UPS Daemon"
 "PostgreSQL"
 "Redis"
 )
