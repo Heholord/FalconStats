@@ -18,7 +18,7 @@ declare -a serviceName=(
 "Plex"
 "SSH Guard"
 "RSync"
-"UFW"
+"Firewall"
 "APC UPS Daemon"
 "PostgreSQL"
 "Redis"
@@ -33,7 +33,7 @@ done
 
 # Maximum column width
 #width=$((49-2))
-width=$((64-2))
+width=$((14-2))
 
 # Current line and line length
 line="  "
@@ -59,9 +59,9 @@ do
 
     # Color the next line green if it's active, else red
     if [[ "${serviceStatus[$i]}" == "active" ]]; then
-    line+="\e[32m\e[0m${serviceName[$i]}: \e[32m● ${serviceStatus[$i]}\e[0m "
+    line+="\e[32m\e[0m${serviceName[$i]}: \t \e[32m● ${serviceStatus[$i]}\e[0m "
     else
-    line+="${serviceName[$i]}: \e[31m▲ ${serviceStatus[$i]}\e[0m "
+    line+="${serviceName[$i]}: \t \e[31m▲ ${serviceStatus[$i]}\e[0m "
     fi
 done
 
