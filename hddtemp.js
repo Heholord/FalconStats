@@ -44,5 +44,5 @@ child = exec("hddtemp "+disk.join(" "), (error, stdout, stderr) => {
         if (i % columns == 0 && i != 0) output += "\n\n";
         output += "  "+tempStyle+" "+name.replace("/dev/", "")+" "+temp+"°C "+style.bgColor.close;
     });
-    console.log(output);
+    console.log(output+style.color.close);
 });
