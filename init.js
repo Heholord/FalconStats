@@ -22,6 +22,8 @@ if (fs.existsSync(configFile)) {
   overwrite = inquirer.prompt(question).then(answers => {
     if(answers.overwrite){
       initConfig();
+    } else {
+      console.log(chalk.yellow("Okay ... you can always view your config in \""+configFile+ "\""));
     }
   });
 } else {
@@ -130,7 +132,7 @@ initConfig = function() {
         if(err) {
           return console.log(chalk.red(err));
         }
-        console.log(chalk.yellow("The config was saved! You can always view your config in \"scritps/config.json\""));
+        console.log(chalk.yellow("The config was saved! You can always view your config in \""+configFile+ "\""));
     });
   });
 }
