@@ -1,8 +1,8 @@
 #!/bin/bash
 
-my_drives="sdb sdc sdd sde sdf"
-my_target_temp=38
-sudo="sudo"
+myDir=$(dirname "$0")
+source "$myDir/config.sh"
+
 clear="\e[49m"
 
 printf "Hard disc temperature:\n"

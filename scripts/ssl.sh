@@ -1,10 +1,12 @@
 #!/bin/bash
 
+myDir=$(dirname "$0")
+source "$myDir/config.sh"
+
 currentTime=$(date +%s)
-my_domains="domain.com example.com"
 
 printf "SSL Certificates:\n"
-for domain in $my_domains; do
+for domain in $ssl_domains; do
     delimiter="\t"
     certTime=$(openssl s_client -connect ${domain}:443 < /dev/null 2>/dev/null | openssl x509 -noout -enddate 2>/dev/null | cut -d= -f2)
     certLineTime=$(date -d "${certTime}" +"%a %b %d %Y")
