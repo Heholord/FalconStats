@@ -23,6 +23,11 @@ or if you like a global installation
 npm install -g
 ```
 
+then install dependencies
+```
+npm install chalk clear figlet inquirer
+```
+
 Custom motd scripts can be placed into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
 
 ## Auto-configuration
@@ -32,7 +37,7 @@ Custom motd scripts can be placed into the `/etc/update-motd` folder in Ubuntu (
 For interactive configuration run
 
 ```bash
-node init.js
+nodejs init.js
 ```
 
 You can always few your config in [scripts/config.json](config.json)
