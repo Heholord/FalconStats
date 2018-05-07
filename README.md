@@ -23,7 +23,7 @@ or if you like a global installation
 npm install -g
 ```
 
-Custom motd scripts can be placed into the `/etc/update-motd` folder.
+Custom motd scripts can be placed into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
 
 ## Auto-configuration
 
