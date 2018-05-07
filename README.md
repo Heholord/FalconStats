@@ -1,5 +1,6 @@
 ![FalconStats](/img/falconStats.png?raw=true)
-## FalconStats
+
+# FalconStats
 
 [Original reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/) on [/r/unixporn](https://www.reddit.com/r/unixporn) by [@hermannbjorgvin](https://github.com/hermannbjorgvin/)
 
@@ -64,7 +65,7 @@ If you send me a pull request I offer you to name your github repo next to the f
 - [ ] write a startup scripts which includes the other scripts
 - [x] [interactive program would be helpful for user configuration](https://github.com/Heholord/FalconStats/commit/ba290d6414ca126abee7c5efa8af6c4103c3104b)
 - [ ] implement [reddit openssl comment](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/dyfbi0k/)
-- [ ] make a logo for this project
+- [x] make a logo for this project - by [J-tt](https://github.com/J-tt)
 - [ ] feel free to add features
 
 # We are better together
@@ -72,3 +73,4 @@ If you send me a pull request I offer you to name your github repo next to the f
 - First pull request by [TechnologyClassroom](https://github.com/TechnologyClassroom)
 - thank you [stevesbrain](https://github.com/stevesbrain) for checking our dependency list. This can be a pain in the a** sometimes
 - Thank you [MrPowerMac](https://github.com/MrPowerMac) for suggesting this project a licence. Now we are truly open source.
+- [J-tt](https://github.com/J-tt) added a logo to our project 🎉
