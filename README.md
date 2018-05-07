@@ -1,4 +1,5 @@
-# FalconStats
+![FalconScript](/img/FalconStats.png?raw=true)
+## FalconStats
 
 [Original reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/) on [/r/unixporn](https://www.reddit.com/r/unixporn) by [@hermannbjorgvin](https://github.com/hermannbjorgvin/)
 
