@@ -10,7 +10,7 @@ for domain in $my_domains; do
     certLineTime=$(date -d "${certTime}" +"%a %b %d %Y")
 
     certTimestamp=$(date -d "${certTime}" +%s)
-    if [ "${certTimestamp}" > "${currentTime}" ]; then
+    if [ "${certTimestamp}" -ge "${currentTime}" ]; then
         sign="\e[32m●\e[0m"
     else
         sign="\e[31m▲\e[0m"
