@@ -1,12 +1,11 @@
 {
-  "apc": true,
-  "zpool": true,
+  "apc": false,
+  "zpool": false,
   "diskspace": {
     "use": true,
     "mountpoints": [
-      "a",
-      "b",
-      "c"
+      "/",
+      "/boot"
     ]
   },
   "hddtemp": {
@@ -18,13 +17,9 @@
   "service": {
     "use": true,
     "services": {
-      "0": "samba"
+      "0": "pm2",
+      "1": "samba"
     }
   },
-  "ssl": {
-    "use": true,
-    "domains": {
-      "0": "example.domain"
-    }
-  }
+  "ssl": false
 }

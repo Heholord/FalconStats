@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "falcon-motd": "scripts/motd.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Heholord/FalconStats.git"
