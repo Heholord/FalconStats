@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var config = require('./config.json')
+var config = require('./scripts/config.json')
 var execSync = require('child_process').execSync
 
 runIf(config.apc, 'sh scripts/apc.sh')
