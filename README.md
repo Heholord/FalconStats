@@ -14,9 +14,10 @@
 ## Install
 
 1. Clone into some Folder
-```sh
-git clone https://github.com/Heholord/FalconStats
-```
+
+  ```sh
+  git clone https://github.com/Heholord/FalconStats
+  ```
 
 2. Enter Folder
 
@@ -24,19 +25,19 @@ git clone https://github.com/Heholord/FalconStats
 cd FalconStats
 ```
 
-3. Install Globally to get the Binaries avaiable
+1. Install Globally to get the Binaries avaiable
 
 ```sh
 npm install -g
 ```
 
-4. SymLink into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
+1. SymLink into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
 
 ```sh
-ln -s falcon-motd /etc/update-motd/falconstats 
+ln -s falcon-motd /etc/update-motd/falconstats
 ```
 
-5. Run the Auto-Configuration
+1. Run the Auto-Configuration
 
 ![Interactive Configuration](https://i.imgur.com/3yulvHB.png)
 
@@ -55,6 +56,14 @@ falcon-motd
 ```
 
 ## Run scripts
+
+You can run all scripts configured in the scripts/config.json using
+
+```bash
+node start.js
+```
+
+If you want to run them individually, have a look here:
 
 For nodejs files (*.js):
 
@@ -77,9 +86,9 @@ cd scripts
 
 If you send me a pull request I offer you to name your github repo next to the feature you have implemented
 
-- [ ] adaptable config for all scripts
+- [x] adaptable config for all scripts
 - [ ] implement service.js for many services
-- [X] write a startup scripts which includes the other scripts
+- [x] write a startup scripts which includes the other scripts - thanks to [DSigmund](https://github.com/DSigmund)
 - [x] [interactive program would be helpful for user configuration](https://github.com/Heholord/FalconStats/commit/ba290d6414ca126abee7c5efa8af6c4103c3104b)
 - [ ] implement [reddit openssl comment](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/dyfbi0k/)
 - [x] make a logo for this project - by [J-tt](https://github.com/J-tt)
@@ -91,3 +100,4 @@ If you send me a pull request I offer you to name your github repo next to the f
 - thank you [stevesbrain](https://github.com/stevesbrain) for checking our dependency list. This can be a pain in the a** sometimes
 - Thank you [MrPowerMac](https://github.com/MrPowerMac) for suggesting this project a licence. Now we are truly open source.
 - [J-tt](https://github.com/J-tt) added a logo to our project 🎉
+- Thank you [DSigmund](https://github.com/DSigmund) for your startup script. It is very helpful!
