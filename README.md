@@ -13,19 +13,30 @@
 
 ## Install
 
+1. Clone into some Folder
 ```sh
-npm install
+git clone https://github.com/Heholord/FalconStats
 ```
 
-or if you like a global installation
+2. Enter Folder
+
+```sh
+cd FalconStats
+```
+
+3. Install Globally to get the Binaries avaiable
 
 ```sh
 npm install -g
 ```
 
-Custom motd scripts can be placed into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
+4. SymLink into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
 
-## Auto-configuration
+```sh
+ln -s falcon-motd /etc/update-motd/falconstats 
+```
+
+5. Run the Auto-Configuration
 
 ![Interactive Configuration](https://i.imgur.com/3yulvHB.png)
 
@@ -35,7 +46,13 @@ For interactive configuration run
 node init.js
 ```
 
-You can always few your config in [scripts/config.json](config.json)
+You can always view or edit your config in [scripts/config.json](config.json)
+
+## Testrun your motd
+
+```sh
+falcon-motd
+```
 
 ## Run scripts
 
@@ -62,7 +79,7 @@ If you send me a pull request I offer you to name your github repo next to the f
 
 - [ ] adaptable config for all scripts
 - [ ] implement service.js for many services
-- [ ] write a startup scripts which includes the other scripts
+- [X] write a startup scripts which includes the other scripts
 - [x] [interactive program would be helpful for user configuration](https://github.com/Heholord/FalconStats/commit/ba290d6414ca126abee7c5efa8af6c4103c3104b)
 - [ ] implement [reddit openssl comment](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/dyfbi0k/)
 - [x] make a logo for this project - by [J-tt](https://github.com/J-tt)
