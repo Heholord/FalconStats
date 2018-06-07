@@ -82,6 +82,9 @@ cd scripts
 ./[script].sh
 ```
 
+Note: `hddtemp` may require root privileges. It defaults to using `sudo`. Adding
+`hddtemp` to your user as a NOPASSWD command is one way to make it work.
+
 ## Future wishes and pull request offers
 
 If you send me a pull request I offer you to name your github repo next to the feature you have implemented
