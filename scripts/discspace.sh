@@ -1,35 +1,29 @@
 #!/bin/bash
 
-myDir=$(dirname "$0")
-source "$myDir/config.sh"
+source "$(dirname "$0")/config.sh"
 
 clear=$(tput sgr0)
 dim=$(tput dim)
 
+df_info="$(df -hl)"
+echo "${df_info}" | head -n 1
+
 for point in ${mountpoints}; do
-    line=$(df -hl "${point}")
+    line=$(echo "${df_info}" | grep $point)
     usagePercent=$(echo "$line"|tail -n1|awk '{print $5;}'|sed 's/%//')
     usedBarWidth=$((($usagePercent*$barWidth)/100))
-    barContent=""
-    if [ "${usagePercent}" -ge "${maxDiscUsage}" ]; then
-        color=$(tput setaf 1)
-    else
-        color=$(tput setaf 2)
-    fi
-    barContent="${color}"
+
+    bar=$(tput setaf 2)
+    [ "${usagePercent}" -ge "${maxDiscUsage}" ] && bar=$(tput setaf 1)
+
     for sep in $(seq 1 $usedBarWidth); do
-        barContent="${barContent}="
+        bar="$bar="
     done
-    barContent="${barContent}${clear}${dim}"
+    bar="$bar$clear$dim"
     for sep in $(seq 1 $(($barWidth-$usedBarWidth))); do
-        barContent="${barContent}="
+        bar="$bar="
     done
-    bar="[${barContent}${clear}]"
-    if [ "${titeled}" == "" ]; then
-        echo "${line}"
-        titeled="1"
-    else
-        echo "${line}"|tail -n1
-    fi
-    echo -e "${bar}"
+
+    echo "${line}"|tail -n1
+    echo -e "[$bar$clear]"
 done
