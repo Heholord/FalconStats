@@ -34,7 +34,7 @@ npm install -g
 1. SymLink into the `/etc/update-motd` folder in Ubuntu ([see](https://wiki.ubuntu.com/UpdateMotd)).
 
 ```sh
-ln -s falcon-motd /etc/update-motd/falconstats
+ln -s falcon-motd /etc/update-motd.d/falconstats
 ```
 
 1. Run the Auto-Configuration
