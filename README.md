@@ -47,7 +47,7 @@ For interactive configuration run
 node init.js
 ```
 
-You can always view or edit your config in [scripts/config.json](config.json)
+You can always view or edit your config in [scripts/config.json](scripts/config.json)
 
 ## Testrun your motd
 
